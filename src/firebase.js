@@ -4,6 +4,7 @@ import { getAnalytics } from "firebase/analytics";
 import {getStorage} from "firebase/storage";
 import {getFirestore} from 'firebase/firestore';
 import {getDatabase} from 'firebase/database';
+import {getAuth} from 'firebase/auth';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -29,3 +30,5 @@ export const db = getFirestore();
 export const storage = getStorage(app);
 
 export const rtdb = getDatabase(app);
+
+export const auth = getAuth(app);  

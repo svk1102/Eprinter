@@ -6,7 +6,9 @@ module.exports = {
     extend: {
       colors: {
         bgDark : "#222222",
-        bgnav : "#626262",
+        bgnav : "#212a4e",
+        textlight : "#F7BE16",
+        navlight : "#3e4872", 
       },
 
 
