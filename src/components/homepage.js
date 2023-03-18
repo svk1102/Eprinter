@@ -149,7 +149,7 @@ function Homepage() {
         })}</div>
       </div>
       </div>
-      <div className="bg-bgDark flex justify-center items-center text-yellow-400 text-2xl font-bold p-2">Find your nearest Cloud Printer here 👇</div>
+      <div className="bg-bgDark flex justify-center items-center text-yellow-400 text-3xl font-bold p-2">Find your nearest Cloud Printer here 👇</div>
       <div className="bg-bgDark flex justify-center items-center border-4 rounded-md border-yellow-200"><Maps/></div>
       
       </>
