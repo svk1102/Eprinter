@@ -13,9 +13,9 @@ function HeroSection() {
         </div>
         <div className="w-full lg:w-1/2 flex justify-center items-center flex-col text-textlight">
             <h2 className="text-4xl lg:text-8xl">Innovents</h2>
-            <div id='scroll1' className="text-xl">Smart Printing Solutions</div>
+            <div id='login' className="text-xl">Smart Printing Solutions</div>
             <div className="text-4xl my-8 text-center">IoT based Wireless cloud printer</div>
-            <div className="my-4"><GoogleSignIn/></div>
+            <div className="my-4" ><GoogleSignIn/></div>
         </div>
         
     </div>
@@ -25,7 +25,7 @@ function HeroSection() {
     <div className="flex justify-center items-center flex-col text-textlight">
         <h2 className="text-4xl lg:text-8xl">Features</h2>
     </div>
-    <div>
+    <div id='info'>
         <ImageCarousel/>
     </div>
     </>

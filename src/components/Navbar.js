@@ -23,10 +23,10 @@ function Navbar() {
                 </div>
                 <div className="hidden lg:block">
                     <ul className="flex justify-between text-white mr-6 text-xl">
-                        <li className="mx-6 bg-navlight px-2 py-2 rounded cursor-pointer">Home</li>
-                        <li className="mx-6 bg-navlight px-2 py-2 rounded cursor-pointer">Features</li>
-                        <li className="mx-6 bg-navlight px-2 py-2 rounded cursor-pointer">About</li>
-                        <li className="mx-6 bg-navlight px-2 py-2 rounded cursor-pointer">Login</li>
+                        <a href='#'><li className="mx-6 bg-navlight px-2 py-2 rounded cursor-pointer">Home</li></a>
+                        <a href='#info'><li className="mx-6 bg-navlight px-2 py-2 rounded cursor-pointer">Features</li></a>
+                        <a href='#info'><li className="mx-6 bg-navlight px-2 py-2 rounded cursor-pointer">About</li></a>
+                        <a href='#login'><li className="mx-6 bg-navlight px-2 py-2 rounded cursor-pointer">Login</li></a>
                     </ul>
                 </div>
                 <div className="block lg:hidden">

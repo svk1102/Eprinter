@@ -54,12 +54,12 @@ const Maps = () => {
 
     <Marker position={center} icon={customIcon}>
       <Popup>
-        A pretty CSS3 popup. <br /> Easily customizable.
+        VESIT Printer <br /> Your nearest printer.
       </Popup>
     </Marker>
     <Marker position={userLocation} icon={personIcon}>
     <Popup>
-        A pretty CSS3 popup. <br /> Easily customizable.
+        Your location
       </Popup>
     </Marker>
 
